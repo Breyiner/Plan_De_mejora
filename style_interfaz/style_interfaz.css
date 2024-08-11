@@ -1,0 +1,26 @@
+.contenedor {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor__ingresar {
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    display: var(--bloque);
+    text-align: var(--centro);
+    background-color: var(--fondo_botones);
+    text-decoration: var(--none);
+    border-radius: 20px;
+    color: var(--letra_botones);
+    border: 2px solid var(--borde_botones);
+    box-shadow: 0px 0px 5px var(--negro);
+    font-weight: var(--negrilla);
+}
+
+.contenedor__ingresar:hover{
+    background-color: var(--hover_botones);
+}

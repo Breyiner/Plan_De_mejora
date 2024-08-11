@@ -1,0 +1,71 @@
+:root {
+  --negro: #000;
+  --blanco: #fff;
+  --fondo_principal: #f5f5dc;
+  --bloque: block;
+  --bloque_enlinea: inline-block;
+  --centro: center;
+  --fondo_botones: #eaa948;
+  --borde_botones: #0000006d; 
+  --none: none;
+  --letra_botones: #421b06;
+  --negrilla: bold;
+  --hover_botones: #ad5423d0;
+  --position_absolute: absolute;
+  --position_relative: relative;
+  --derecha: right;
+  --duracion_05: 0.5s;
+  --duracion_1: 1s;
+
+   /*-----------------componente 1------------------*/
+  --fondo1_negro1: #0000009d;
+  --fondo2_negro1: #0000003d;
+
+  /*-----------------componente 2------------------*/
+  --fondo_comp2: #0099006c;
+
+  --fondo1_modifier1: #892be289;
+  --fondo2_modifier1: #892be2;
+
+  --fondo1_modifier2: #1ed1aa89;
+  --fondo2_modifier2: #15826b89;
+
+  --fondo1_modifier3: #f0152089;
+  --fondo2_modifier3: #ec032289;
+
+  --fondo1_modifier4: #deb887;
+  --fondo2_modifier4: #9e7945e6;
+  --sombra_modifier4: #464545ce;
+
+  /*-----------------componente 3------------------*/
+  --fondo_gris: #ccc;
+  --fondo_gris2: #e0e0e0d7;
+  --fondo_modifier1: #787878a3;
+  --sombra_modifier1: #787878;
+
+
+  --fondo_beige3: #ffe4c4;
+  --marron1: #ec4343a3;
+  --marron2: #f7664da3;
+
+
+  --fondo_verde1: #23bcbc84;
+  --fondo_verde2: #1a727284;
+  --fondo_beige4: #f0f8ff;
+
+
+
+  --fondo-amarillo1: #dfb343;
+  --fondo-amarillo2: #b28f37;
+  --fondo-amarillo3: #f4fca7;
+
+  /*-----------------componente 4------------------*/
+  --fondo-menu: #333;
+  --fondo-verdementa2: #305e5e;
+  --fondo-marron1: #563f27; 
+  --fondo-marron2: #674622;
+  --fondo-beige: #f5f5dc;
+  --fondo-mostaza: #fcc03e;
+  --fondo-gris1: #656565;
+  --fondo-gris2: #8e8e8e;
+}

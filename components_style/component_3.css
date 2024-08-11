@@ -1,0 +1,91 @@
+.acordeon {
+    width: 600px;
+    margin: 30px auto;
+    border: 1px solid var(--fondo_gris);
+}
+
+.acordeon__titulo {
+    padding: 10px;
+    border: 1px solid var(--fondo_gris);
+    cursor: pointer;
+}
+
+.acordeon__contenido {
+    padding: 5px 10px;
+    background-color: var(--fondo_gris2);
+}
+
+
+/*--------------------------------------------*/
+
+.acordeon--angosto {
+    width: 400px;
+}
+
+.acordeon__titulo--hv-osc:hover {
+    background-color: var(--fondo_modifier1);
+    box-shadow: 0 0 5px var(--sombra_modifier1);
+    transition: var(--duracion_05);
+}
+
+/*---------------------------------------------*/
+
+
+.acordeon--rojo-bd {
+    background-color: var(--fondo_beige3);
+    border-color: var(--marron1);
+}
+
+.acordeon__titulo--bd-rojo {
+    border-color: var(--marron2);
+}
+
+.acordeon__contenido--fd-rojoclaro {
+    background-color: var(--marron2);
+}
+
+/*-----------------------------------------------*/
+
+.acordeon--azulclaro-hv-sombra {
+    background-color: var(--fondo_verde1);
+}
+
+.acordeon--azulclaro-hv-sombra:hover {
+    box-shadow: 0 0 5px var(--negro);
+    transition: var(--duracion_05);
+}
+
+.acordeon__titulo--hv-osc-txt-blanco:hover {
+    background-color: var(--fondo_verde2);
+    color: var(--blanco);
+    transition: var(--duracion_05);
+}
+
+.acordeon__contenido--fondo-beige-justificado {
+    background-color: var(--fondo_beige4);
+    text-align: justify;
+}
+
+/*-----------------------------------------------------*/
+
+.acordeon--mostaza {
+    background-color: var(--fondo-amarillo1);
+}
+
+.acordeon__titulo--h-blanco-sb:hover {
+    background-color: var(--fondo-amarillo2);
+    filter: drop-shadow(0 0 5px var(--negro));
+    color: var(--blanco);
+    transition: var(--duracion_05);
+}
+
+.acordeon__contenido--amarillo {
+    background-color: var(--fondo-amarillo3);
+    text-align: var(--centro);
+}
+
+.acordeon__tira--open-osc-sb[open] .acordeon__titulo--h-blanco-sb {
+    background-color: var(--fondo-amarillo2);
+    filter: drop-shadow(0 0 5px var(--negro));
+    color: var(--blanco);
+}
