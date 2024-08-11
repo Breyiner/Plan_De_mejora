@@ -34,7 +34,7 @@
     background-color: var(--fondo1_modifier1);
 }
 
-.lista__item--h-morado-osc:hover {
+.lista__item--hv-morado-osc:hover {
     background-color: var(--fondo2_modifier1);
 }
 
@@ -48,7 +48,7 @@
     border-color: var(--blanco);
 }
 
-.lista__item--h-cnt-fd-osc:hover {
+.lista__item--hv-cnt-fd-osc:hover {
     background-color: var(--fondo2_modifier2);
     text-align: var(--centro);
 }
@@ -77,7 +77,7 @@
     box-shadow: 0 0 5px var(--negro);
 }
 
-.lista__item--h-osc-txtblanco-bd:hover {
+.lista__item--hv-osc-txtblanco-bd:hover {
     border-right: 2px solid var(--negro);
     background-color: var(--fondo2_modifier4);
     color: var(--blanco);
