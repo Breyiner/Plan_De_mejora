@@ -18,7 +18,7 @@
 }
 
 .paginacion__item {
-    padding: 5px;
+    padding: 7px;
     border: 1px solid #00000035;
     cursor: pointer;
 }
@@ -42,6 +42,10 @@
 .paginacion__item--borde-redondo-derecha {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+
+.paginacion__item--fondo-activo {
+    background-color: #26262653;
 }
 
 /* .boton_salir, .boton_volver, .boton_anterior, .boton_siguiente{
