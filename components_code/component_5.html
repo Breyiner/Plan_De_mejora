@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Componente 5</title>
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <header class="header">
@@ -49,5 +50,41 @@
           </ul>
         </nav>
     </header>
+    <form class="formulario">
+      <div class="formulario__contenedor">
+        <label for="texto" class="formulario__label">Etiqueta</label>
+        <input type="text" class="formulario__input" placeholder="Texto" id="texto" autocomplete="off">
+      </div>
+    </form>
+    <hr>
+    <form class="formulario">
+      <div class="formulario__contenedor">
+        <label for="texto-borde-azul" class="formulario__label">Etiqueta</label>
+        <input type="text" class="formulario__input formulario__input--hover-oscuro-borde-azul" placeholder="Texto" id="texto-borde-azul" autocomplete="off">
+      </div>
+    </form>
+    
+    <form class="formulario">
+      <div class="formulario__contenedor">
+        <label for="texto" class="formulario__label ">Etiqueta</label>
+        <input type="text" class="formulario__input formulario__input--rojo-borde" placeholder="Texto" id="texto" autocomplete="off">
+        <div class="formulario__txt-ayuda formulario__txt-ayuda-rojo">Error</div>
+      </div>
+    </form>
+
+    <form class="formulario">
+      <div class="formulario__contenedor formulario__contenedor--relative">
+        <label for="texto" class="formulario__label">Correo:</label>
+        <input type="text" class="formulario__input formulario__input-txto-espaciado" placeholder="Correo" id="texto" autocomplete="off">
+        <span class="material-symbols-outlined formulario__icono formulario__icono--gris">mail</span>
+      </div>
+    </form>
+
+    <form class="formulario formulario--fondo-gris">
+      <div class="formulario__contenedor">
+        <label for="texto" class="formulario__label">Etiqueta</label>
+        <input type="text" class="formulario__input formulario__input--selecc-verde" placeholder="Texto" id="texto" autocomplete="off">
+      </div>
+    </form>
 </body>
 </html>
