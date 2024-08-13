@@ -61,7 +61,7 @@
     transition: var(--duracion_05);
 }
 
-.acordeon__contenido--fondo-beige-justificado {
+.acordeon__contenido--fd-beige-justificado {
     background-color: var(--fondo_beige4);
     text-align: justify;
 }
