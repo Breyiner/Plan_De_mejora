@@ -43,7 +43,7 @@
     filter: drop-shadow(0 0 5px var(--negro));
 }
 
-.menu__opcion--hv-negro:hover {
+.menu__opcion--hover-negro:hover {
     background-color: var(--negro);
     filter: drop-shadow(0 0 3px var(--negro));
 }
@@ -56,7 +56,7 @@
     border-radius: 10px;
 }
 
-.menu__enlace--hv-negrilla:hover, .menu__opcion--hv-sombra:hover {
+.menu__enlace--hover-negrilla:hover, .menu__opcion--hover-sombra:hover {
     font-weight: var(--negrilla);
     background-color: var(--fondo-marron2);
     filter: drop-shadow(0 0 3px var(--negro));
@@ -78,13 +78,13 @@
     filter: drop-shadow(0 0 2px var(--negro));
 }
 
-.menu__opcion--hv-grisclaro:hover {
+.menu__opcion--hover-grisclaro:hover {
     background-color: var(--fondo-gris2);
     color: var(--blanco);
     filter: drop-shadow(0 0 2px var(--negro));
 }
 
-.menu__opcion--hv-rd-derecha:hover {
+.menu__opcion--hover-redondo-derecha:hover {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }

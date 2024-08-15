@@ -34,7 +34,7 @@
     background-color: var(--fondo1_modifier1);
 }
 
-.lista__item--hv-morado-osc:hover {
+.lista__item--hover-morado-oscuro:hover {
     background-color: var(--fondo2_modifier1);
 }
 
@@ -44,41 +44,34 @@
     background-color: var(--fondo1_modifier2);
 }
 
-.lista__item--bd-blanco {
+.lista__item--borde-blanco {
     border-color: var(--blanco);
 }
 
-.lista__item--hv-cnt-fd-osc:hover {
-    background-color: var(--fondo2_modifier2);
-    text-align: var(--centro);
-}
-
-
 /*--------------------------------------------*/
 
-.lista--blanca-txt-cnt {
+.lista--blanca-txt-centro {
     background-color: var(--blanco);
     text-align: var(--centro);
 }
 
-.lista__item--bd-abajo {
+.lista__item--borde-abajo {
     border: var(--none);
     border-bottom: 1px solid var(--negro);
 }
 
-.lista__item--no-bd:last-of-type {
+.lista__item--no-borde {
     border: var(--none);
 }
 
 /*--------------------------------------------*/
 
-.lista--marron-sb {
+.lista--marron-sombra {
     background-color: var(--fondo1_modifier4);
     box-shadow: 0 0 5px var(--negro);
 }
 
-.lista__item--hv-osc-txtblanco-bd:hover {
-    border-right: 2px solid var(--negro);
+.lista__item--hover-oscuro-txtblanco:hover {
     background-color: var(--fondo2_modifier4);
     color: var(--blanco);
     filter: drop-shadow(0 0 10px var(--sombra_modifier4));

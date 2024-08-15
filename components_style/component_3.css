@@ -22,46 +22,46 @@
     width: 400px;
 }
 
-.acordeon__titulo--hv-osc:hover {
+.acordeon__titulo--hover-gris-sombra:hover {
     background-color: var(--fondo_modifier1);
-    box-shadow: 0 0 5px var(--sombra_modifier1);
+    box-shadow: 0 0 5px var(--negro);
     transition: var(--duracion_05);
 }
 
 /*---------------------------------------------*/
 
 
-.acordeon--rojo-bd {
+.acordeon--rojo-borde {
     background-color: var(--fondo_beige3);
     border-color: var(--marron1);
 }
 
-.acordeon__titulo--bd-rojo {
+.acordeon__titulo--borde-rojo {
     border-color: var(--marron2);
 }
 
-.acordeon__contenido--fd-rojoclaro {
+.acordeon__contenido--fondo-rojoclaro {
     background-color: var(--marron2);
 }
 
 /*-----------------------------------------------*/
 
-.acordeon--azulclaro-hv-sombra {
+.acordeon--azulclaro-hover-sombra {
     background-color: var(--fondo_verde1);
 }
 
-.acordeon--azulclaro-hv-sombra:hover {
+.acordeon--azulclaro-hover:hover {
     box-shadow: 0 0 5px var(--negro);
     transition: var(--duracion_05);
 }
 
-.acordeon__titulo--hv-osc-txt-blanco:hover {
+.acordeon__titulo--blanco-hover-oscuro:hover {
     background-color: var(--fondo_verde2);
     color: var(--blanco);
     transition: var(--duracion_05);
 }
 
-.acordeon__contenido--fd-beige-justificado {
+.acordeon__contenido--fondo-beige {
     background-color: var(--fondo_beige4);
     text-align: justify;
 }
@@ -72,10 +72,8 @@
     background-color: var(--fondo-amarillo1);
 }
 
-.acordeon__titulo--h-blanco-sb:hover {
+.acordeon__titulo--hover-mostaza-oscuro:hover {
     background-color: var(--fondo-amarillo2);
-    filter: drop-shadow(0 0 5px var(--negro));
-    color: var(--blanco);
     transition: var(--duracion_05);
 }
 
@@ -84,8 +82,7 @@
     text-align: var(--centro);
 }
 
-.acordeon__tira--open-osc-sb[open] .acordeon__titulo--h-blanco-sb {
+.acordeon__tira--open-oscuro[open] .acordeon__titulo--hover-mostaza-oscuro {
     background-color: var(--fondo-amarillo2);
-    filter: drop-shadow(0 0 5px var(--negro));
-    color: var(--blanco);
+
 }
