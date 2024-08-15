@@ -71,7 +71,7 @@
     box-shadow: 0 0 5px var(--negro);
 }
 
-.lista__item--hover-oscuro-txtblanco:hover {
+.lista__item--hover-oscuro-txtblanco:hover  {
     background-color: var(--fondo2_modifier4);
     color: var(--blanco);
     filter: drop-shadow(0 0 10px var(--sombra_modifier4));
