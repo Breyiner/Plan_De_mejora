@@ -1,0 +1,83 @@
+.notificacion {
+    width: 70px;
+    height: 70px;
+    background-color: #2540d8;
+    border: 3px solid #fff;
+    margin: 20px auto;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.notificacion__icono{
+    color: #fff;
+    font-size: 30px;
+    
+}
+
+.notificacion__badge{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    background-color: red;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+.notificacion--hover-oscuro:hover {
+    background-color: #1f2c77;
+    transition: 0.5s ease-in-out;
+}
+
+
+.notificacion--hover-sombra-agrandar:hover{
+    width: 73px;
+    height: 73px;
+    box-shadow: 0 0 5px #000;
+    transition: 0.3s ease-in-out;
+}
+
+
+.notificacion--color-invertido-bordeazul{
+    background-color: #fff;
+    border: 3px solid #2540d8;
+}
+
+.notificacion__icono--azul{
+    color: #2540d8;
+}
+
+.notificacion__badge--gris{
+    background-color: #6c6c6c;
+}
+
+
+
+.notificacion--circular-verdeoscuro{
+    border-radius: 50%;
+    background-color: #458a00;
+}
+
+
+/*Media hora para darme cuenta que debia indicar que al hacer hover en el contenedor
+el badge tambien tuviera efecto. Dios mío, estaba haciendo todo sin el (.notificacion:hover)*/
+.notificacion--hover-bordegris-transicion:hover,
+.notificacion:hover .notificacion__badge--hover-bordegris-transicion{
+    border: 3px solid #6c6c6c;
+    transition: 0.6s ease-in;
+}
+
