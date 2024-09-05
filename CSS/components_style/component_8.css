@@ -1,0 +1,70 @@
+.tabla-frutas {
+    /* border: 1px solid #000; */
+    margin: 10px auto;
+    width: 400px;
+    height: 120px;
+    /* display: inline-block; */
+    border-collapse: collapse;
+}
+
+.tabla-frutas__celda {
+    border: 1.5px solid #000;
+    /* padding: 5px; */
+}
+
+
+
+.tabla-frutas--celeste {
+    background-color: aquamarine;
+}
+
+.tabla-frutas__celda--borde-blanco {
+    border-color: #fff;
+}
+
+
+
+.tabla-frutas--amarilla{
+    background-color: #fbe56a;
+}
+
+.tabla-frutas--hover-sombra:hover {
+    box-shadow: 0 0 5px #000;
+    transition: 0.3s;
+}
+
+.tabla-frutas__celda--texto-centrado {
+    text-align: center;
+}
+
+
+.tabla-frutas--gris {
+    background-color: #c2c2c2;
+}
+
+.tabla-frutas__celda--hover-negro-texto-blanco-centrado:hover {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    transition: ease-in-out 0.5s;
+}
+
+
+
+.tabla-frutas--grande-verde {
+    width: 500px;
+    height: 150px;
+    background-color: #90f08b;
+}
+
+.tabla-frutas__celda--hover-sombra-texto:hover {
+    filter: drop-shadow(0 0 2px #000);
+}
+
+.tabla-frutas__cabezera--verde-oscuro {
+    background-color: #5b9658;
+}
+
+.tabla-frutas__pie--verde-claro {
+    background-color: #b2e6af;
+}
