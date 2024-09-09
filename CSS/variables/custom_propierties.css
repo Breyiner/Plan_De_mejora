@@ -2,15 +2,10 @@
   --negro: #000;
   --blanco: #fff;
   --fondo_principal: #f5f5dc;
-  --bloque: block;
-  --bloque_enlinea: inline-block;
-  --centro: center;
-  --fondo_botones: #eaa948;
+  --fondo_botones: #39a4b2;
   --borde_botones: #0000006d; 
-  --none: none;
-  --letra_botones: #421b06;
-  --negrilla: bold;
-  --hover_botones: #ad5423d0;
+  --letra_botones: #ffffff;
+  --hover_botones: #1e6779d0;
   --position_absolute: absolute;
   --position_relative: relative;
   --derecha: right;

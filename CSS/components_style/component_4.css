@@ -3,18 +3,18 @@
     color: var(--blanco);
     width: 490px;
     margin: 10px auto;
-    text-align: var(--centro);
+    text-align: center;
 }
 
 .menu__opcion {
-    display: var(--bloque_enlinea);
+    display: inline-block;
     margin-right: 0;
 }
 
 .menu__enlace {
-    text-decoration: var(--none);
+    text-decoration: none;
     padding: 20px;
-    display: var(--bloque);
+    display: block;
     color: var(--blanco);
 }
 
@@ -29,7 +29,7 @@
 }
 
 .menu__enlace--blanco-underline:hover {
-    font-weight: var(--negrilla);
+    font-weight: bold;
     text-decoration: underline;
 }
 
@@ -57,7 +57,7 @@
 }
 
 .menu__enlace--hover-negrilla:hover, .menu__opcion--hover-sombra:hover {
-    font-weight: var(--negrilla);
+    font-weight: bold;
     background-color: var(--fondo-marron2);
     filter: drop-shadow(0 0 3px var(--negro));
     border-radius: 10px;

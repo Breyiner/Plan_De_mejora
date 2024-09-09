@@ -8,8 +8,8 @@
 }
 
 .post__contenido {
-    display: var(--bloque_enlinea);
-    text-align: var(--derecha);
+    display: inline-block;
+    text-align: right;
     width: 65%;
     padding: 10px;
 }
@@ -17,7 +17,7 @@
 
 .post__imagen {
     width: 33%;
-    display: var(--bloque_enlinea);
+    display: inline-block;
     border-radius: 30px;
 }
 
@@ -64,9 +64,9 @@
 .post--hover-grande-negrilla:hover{
     width: 410px;
     height: 210px;
-    transition: var(--duracion_05);
+    transition: 0.5s;
     font-size: 26px;
-    font-weight: var(--negrilla);
+    font-weight: bold;
 }
 
 .post__imagen--sombra-blanca {
@@ -82,5 +82,5 @@
 
 .post__contenido--sombra-hover-brillante:hover {
     filter: drop-shadow(0 0 1px var(--blanco));
-    transition: var(--duracion_1);
+    transition: 1s;
 }

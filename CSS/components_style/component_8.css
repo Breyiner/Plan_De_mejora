@@ -5,6 +5,7 @@
     height: 120px;
     /* display: inline-block; */
     border-collapse: collapse;
+    cursor: pointer;
 }
 
 .tabla-frutas__celda {

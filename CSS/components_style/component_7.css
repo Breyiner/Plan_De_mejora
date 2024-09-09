@@ -51,8 +51,13 @@
 }
 
 
-.alerta--verde {
+.alerta--verde-hover-sombra-verdeclaro {
     background-color: #4caf50;
+}
+
+.alerta--verde-hover-sombra-verdeclaro:hover {
+    box-shadow: 0 0 5px #61b264;
+    transition: 0.3s;
 }
 
 .alerta__icono--blanco {
@@ -79,4 +84,9 @@
 .alerta__icono--cerrar-verde-derecha {
     color: #008000;
     cursor: pointer;
+}
+
+.alerta__icono--cerrar-verde-derecha:hover {
+    font-size: 27px;
+    transition: 0.3s;
 }

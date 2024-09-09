@@ -1,19 +1,14 @@
 .lista {
-    display: var(--bloque_enlinea);
+    display: block;
     width: 250px;
-    background-color: var(--fondo_comp2);
-    margin: 10px 30px;
-    border-radius: 10px;
-}
-
-.lista:first-of-type {
-    display: var(--bloque);
     margin: 20px auto;
+    background-color: var(--fondo_comp2);
+    border-radius: 10px;
 }
 
 .lista__item {
     padding: 10px;
-    list-style: var(--none);
+    list-style: none;
     cursor: pointer;
     border: 1px solid var(--negro);
 }
@@ -52,16 +47,16 @@
 
 .lista--blanca-txt-centro {
     background-color: var(--blanco);
-    text-align: var(--centro);
+    text-align: center;
 }
 
 .lista__item--borde-abajo {
-    border: var(--none);
+    border: none;
     border-bottom: 1px solid var(--negro);
 }
 
 .lista__item--no-borde {
-    border: var(--none);
+    border: none;
 }
 
 /*--------------------------------------------*/
