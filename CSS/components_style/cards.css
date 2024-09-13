@@ -35,16 +35,16 @@
 /*------------------------------------------*/
 
 .post--hover-gris:hover, .post__imagen--sombra{
-    background-color: var(--fondo1_negro1);
+    background-color: var(--negro-claro);
     box-shadow: 0 0 10px var(--negro);
-    transition: var(--duracion_05);
+    transition: 0.5s;
 }
 
 
 /*-------------------------------------------*/
 
 .post--gris-borde {
-    background-color: var(--fondo2_negro1);
+    background-color: var(--gris-transparentoso);
     border: 2px solid var(--negro);
 }
 

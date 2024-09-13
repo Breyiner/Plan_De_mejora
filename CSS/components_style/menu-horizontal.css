@@ -1,5 +1,5 @@
 .menu {
-    background-color: var(--fondo-menu);
+    background-color: var(--gris-profundidad);
     color: var(--blanco);
     width: 490px;
     margin: 10px auto;
@@ -21,7 +21,7 @@
 /*------------------------------------------------------*/
 
 .menu--azulado {
-    background-color: var(--fondo-verdementa2);
+    background-color: var(--verde-menta-oscuro);
 }
 
 .menu__enlace--blanco-underline {
@@ -36,7 +36,7 @@
 
 /*--------------------------------------------------------*/
 .menu--no-fondo {
-    background-color: var(--fondo-beige);
+    background-color: var(--beige-clasico);
 }
 
 .menu__enlace--sombra{
@@ -52,13 +52,13 @@
 /*--------------------------------------------------------*/
 
 .menu--marron-redondeado {
-    background-color: var(--fondo-marron1);
+    background-color: var(--marron-cafe);
     border-radius: 10px;
 }
 
 .menu__enlace--hover-negrilla:hover, .menu__opcion--hover-sombra:hover {
     font-weight: bold;
-    background-color: var(--fondo-marron2);
+    background-color: var(--marron-caramelo);
     filter: drop-shadow(0 0 3px var(--negro));
     border-radius: 10px;
     transition: 0.5s;
@@ -67,19 +67,19 @@
 
 /*-------------------------------------------------------*/
 .menu--gris-rd {
-    background-color: var(--fondo-gris1);
+    background-color: var(--gris-plomo);
     border-radius: 10px;
 }
 
 .menu__opcion--activo-amarillo {
-    background-color: var(--fondo-mostaza);
+    background-color: var(--mostaza-brillante);
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     filter: drop-shadow(0 0 2px var(--negro));
 }
 
 .menu__opcion--hover-grisclaro:hover {
-    background-color: var(--fondo-gris2);
+    background-color: var(--gris-humo);
     color: var(--blanco);
     filter: drop-shadow(0 0 2px var(--negro));
 }

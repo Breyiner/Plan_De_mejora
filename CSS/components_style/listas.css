@@ -2,7 +2,7 @@
     display: block;
     width: 250px;
     margin: 20px auto;
-    background-color: var(--fondo_comp2);
+    background-color: var(--verde-oscuro-suave);
     border-radius: 10px;
 }
 
@@ -26,17 +26,17 @@
 /*--------------------------------------------*/
 
 .lista--morada {
-    background-color: var(--fondo1_modifier1);
+    background-color: var(--purpura-suave-transparente);
 }
 
 .lista__item--hover-morado-oscuro:hover {
-    background-color: var(--fondo2_modifier1);
+    background-color: var(--purpura-suave);
 }
 
 /*--------------------------------------------*/
 
 .lista--turquesa {
-    background-color: var(--fondo1_modifier2);
+    background-color: var(--verde-esmeralda-suave);
 }
 
 .lista__item--borde-blanco {
@@ -62,12 +62,12 @@
 /*--------------------------------------------*/
 
 .lista--marron-sombra {
-    background-color: var(--fondo1_modifier4);
+    background-color: var(--beige-natural);
     box-shadow: 0 0 5px var(--negro);
 }
 
 .lista__item--hover-oscuro-txtblanco:hover  {
-    background-color: var(--fondo2_modifier4);
+    background-color: var(--marron-terroso);
     color: var(--blanco);
-    filter: drop-shadow(0 0 10px var(--sombra_modifier4));
+    filter: drop-shadow(0 0 10px var(--sombra-marron-oscuro));
 }

@@ -15,19 +15,19 @@
 
 .pagination__item {
     padding: 7px;
-    border: 1px solid #00000035;
+    border: 1px solid var(--negro-suave-transparente);
     cursor: pointer;
 }
 
 .pagination__enlace { 
     text-decoration: none;
-    color: #404040c8;
+    color: var(--gris-plomo-transparente);
 }
 
 .pagination__item:hover {
-    background-color: #26262653;
-    box-shadow: 0 0 5px #26262653;
-    text-decoration: underline #404040c8;
+    background-color: var(--gris-oscuro-traslucido);
+    box-shadow: 0 0 5px var(--gris-oscuro-traslucido);
+    text-decoration: underline var(--gris-plomo-transparente);
 }
 
 .pagination__item--borde-redondo-izquierda {
@@ -41,5 +41,5 @@
 }
 
 .pagination__item--fondo-activo {
-    background-color: #26262653;
+    background-color: var(--gris-oscuro-traslucido);
 }

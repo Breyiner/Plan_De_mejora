@@ -1,18 +1,18 @@
 .acordeon {
     width: 600px;
     margin: 30px auto;
-    border: 1px solid var(--fondo_gris);
+    border: 1px solid var(--gris-neutro);
 }
 
 .acordeon__titulo {
     padding: 10px;
-    border: 1px solid var(--fondo_gris);
+    border: 1px solid var(--gris-neutro);
     cursor: pointer;
 }
 
 .acordeon__contenido {
     padding: 5px 10px;
-    background-color: var(--fondo_gris2);
+    background-color: var(--gris-palido-transparente);
 }
 
 
@@ -23,66 +23,66 @@
 }
 
 .acordeon__titulo--hover-gris-sombra:hover {
-    background-color: var(--fondo_modifier1);
+    background-color: var(--gris-medio-transparente);
     box-shadow: 0 0 5px var(--negro);
-    transition: var(--duracion_05);
+    transition: 0.5s;
 }
 
 /*---------------------------------------------*/
 
 
 .acordeon--rojo-borde {
-    background-color: var(--fondo_beige3);
-    border-color: var(--marron1);
+    background-color: var(--beige-suave);
+    border-color: var(--rojo-terroso-transparente);
 }
 
 .acordeon__titulo--borde-rojo {
-    border-color: var(--marron2);
+    border-color: var(--rojo-anaranjado-transparente);
 }
 
 .acordeon__contenido--fondo-rojoclaro {
-    background-color: var(--marron2);
+    background-color: var(--rojo-anaranjado-transparente);
 }
 
 /*-----------------------------------------------*/
 
 .acordeon--azulclaro-hover-sombra {
-    background-color: var(--fondo_verde1);
+    background-color: var(--verde-agua-transparente);
 }
 
 .acordeon--azulclaro-hover:hover {
     box-shadow: 0 0 5px var(--negro);
-    transition: var(--duracion_05);
+    transition: 0.5s;
 }
 
 .acordeon__titulo--blanco-hover-oscuro:hover {
-    background-color: var(--fondo_verde2);
+    background-color: var(--verde-turquesa-suave);
     color: var(--blanco);
-    transition: var(--duracion_05);
+    transition: 0.5s;
 }
 
 .acordeon__contenido--fondo-beige {
-    background-color: var(--fondo_beige4);
+    background-color: var(--azul-cielo-palido);
     text-align: justify;
 }
 
 /*-----------------------------------------------------*/
 
 .acordeon--mostaza {
-    background-color: var(--fondo-amarillo1);
+    background-color: var(--amarillo-dorado);
 }
 
 .acordeon__titulo--hover-mostaza-oscuro:hover {
-    background-color: var(--fondo-amarillo2);
-    transition: var(--duracion_05);
+    background-color: var(--amarillo-terroso);
+    transition: 0.5s;
 }
 
 .acordeon__contenido--amarillo {
-    background-color: var(--fondo-amarillo3);
+    background-color: var(--amarillo-pastel);
     text-align: var(--centro);
 }
 
 .acordeon__tira--open-oscuro[open] .acordeon__titulo--hover-mostaza-oscuro {
-    background-color: var(--fondo-amarillo2);
+    background-color: var(--amarillo-terroso);
 
 }

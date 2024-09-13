@@ -1,66 +1,100 @@
 :root {
   --negro: #000;
   --blanco: #fff;
-  --fondo_principal: #f5f5dc;
-  --fondo_botones: #39a4b2;
-  --borde_botones: #0000006d; 
-  --letra_botones: #ffffff;
-  --hover_botones: #1e6779d0;
-  --position_absolute: absolute;
-  --position_relative: relative;
-  --derecha: right;
-  --duracion_05: 0.5s;
-  --duracion_1: 1s;
+  --fondo-principal: #f5f5dc;
+  --azul-turquesa: #39a4b2;
+  --negro-translúcido: #0000006d;
+  --azul-oceano-transparente: #1e6779d0;
+  
+  /*-----------------paginacion de la pagina------------------*/
+  --negro-suave-transparente: #00000035;
+  --gris-plomo-transparente: #404040c8;
+  --gris-oscuro-translucido: #26262653;
 
-   /*-----------------componente 1------------------*/
-  --fondo1_negro1: #0000009d;
-  --fondo2_negro1: #0000003d;
+
+
+  /*-----------------componente 1------------------*/
+  --negro-claro: #0000009d;
+  --gris-transparentoso: #0000003d;
+
 
   /*-----------------componente 2------------------*/
-  --fondo_comp2: #0099006c;
+  --verde-oscuro-suave: #0099006c;
+  --purpura-suave-transparente: #892be289;
+  --purpura-suave: #892be2;
+  --verde-esmeralda-suave: #1ed1aa89;
+  --rojo-vivo-transparente: #f0152089;
+  --rojo-intenso-transparente: #ec032289;
+  --beige-natural: #deb887;
+  --marron-terroso: #9e7945e6;
+  --sombra-marron-oscuro: #464545ce;
 
-  --fondo1_modifier1: #892be289;
-  --fondo2_modifier1: #892be2;
-
-  --fondo1_modifier2: #1ed1aa89;
-  --fondo2_modifier2: #15826b89;
-
-  --fondo1_modifier3: #f0152089;
-  --fondo2_modifier3: #ec032289;
-
-  --fondo1_modifier4: #deb887;
-  --fondo2_modifier4: #9e7945e6;
-  --sombra_modifier4: #464545ce;
 
   /*-----------------componente 3------------------*/
-  --fondo_gris: #ccc;
-  --fondo_gris2: #e0e0e0d7;
-  --fondo_modifier1: #787878a3;
-  --sombra_modifier1: #787878;
-
-
-  --fondo_beige3: #ffe4c4;
-  --marron1: #ec4343a3;
-  --marron2: #f7664da3;
-
-
-  --fondo_verde1: #23bcbc84;
-  --fondo_verde2: #1a727284;
-  --fondo_beige4: #f0f8ff;
-
-
-
-  --fondo-amarillo1: #dfb343;
-  --fondo-amarillo2: #b28f37;
-  --fondo-amarillo3: #f4fca7;
+  --gris-neutro: #ccc;
+  --gris-palido-transparente: #e0e0e0d7;
+  --gris-medio-transparente: #787878a3;
+  --beige-suave: #ffe4c4;
+  --rojo-terroso-transparente: #ec4343a3;
+  --rojo-anaranjado-transparente: #f7664da3;
+  --verde-agua-transparente: #23bcbc84;
+  --verde-turquesa-suave: #1a727284;
+  --azul-cielo-palido: #f0f8ff;
+  --amarillo-dorado: #dfb343;
+  --amarillo-terroso: #b28f37;
+  --amarillo-pastel: #f4fca7;
 
   /*-----------------componente 4------------------*/
-  --fondo-menu: #333;
-  --fondo-verdementa2: #305e5e;
-  --fondo-marron1: #563f27; 
-  --fondo-marron2: #674622;
-  --fondo-beige: #f5f5dc;
-  --fondo-mostaza: #fcc03e;
-  --fondo-gris1: #656565;
-  --fondo-gris2: #8e8e8e;
+  --gris-profundidad: #333;
+  --verde-menta-oscuro: #305e5e;
+  --beige-clasico: #f5f5dc;
+  --marron-cafe: #563f27;
+  --marron-caramelo: #674622;
+  --mostaza-brillante: #fcc03e;
+  --gris-plomo: #656565;
+  --gris-humo: #8e8e8e;
+
+  /*-----------------componente 5------------------*/
+  --gris-oscuro-transparente: #2a2929bf;
+  --gris-claro-transparente: #d6d6d65a;
+  --azul-profundo: #2a0fb1;
+  --gris-neutro-transparente: #a7a7a75a;
+  --rosa-pastel-transparente: #ee9f9f79;
+  --verde-vivo: #3db12e;
+
+  /*-----------------componente 6------------------*/
+  --rojo-puro: #ff0000;
+
+  
+  /*-----------------componente 7------------------*/
+  --rojo-oscuro: #7d2525f6;
+  --beige-clarisimo: #ffd7ac;
+  --naranja-brillante: #ff9800;
+  --marron-oscuro: #663c00;
+  --azul-brillante: #008cff;
+  --azul-marino: #0d3c61;
+  --verde-intenso: #4caf50;
+  --verde-primavera: #61b264;
+  --verde-menta-suave: #c6ffc8;
+  --verde-neon: #00b700;
+  --verde-bosque: #008000;
+
+  /*-----------------componente 8------------------*/
+  --aguamarina: #7fffd4;
+  --amarillo-dorado-suave: #fbe56a;
+  --gris-metalizado: #c2c2c2;
+  --verde-limon: #90f08b;
+  --verde-oliva: #5b9658;
+  --verde-menta-claro: #b2e6af;
+
+  /*-----------------componente 9------------------*/
+  --gris-carbon: #403f3f;
+  --gris-clasico: #808080;
+  --azul-electrico: #2d85ff;
+
+  /*-----------------componente 10------------------*/
+  --gris-oxidado: #403f3f; /* Gris oxidado */
+  --naranja-melocoton: #f7a971; /* Naranja melocotón */
+  --verde-neon-palido: #6cffce; /* Verde neón pálido */
+
 }
